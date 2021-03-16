@@ -1,5 +1,22 @@
 /* Universal Selector */
 .root{
-    background-color: ;
+    background-color:gray;
+    color: white;
+}
 
+h1 {
+    color: purple;
+    background-color: gray;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header h1 .Jackson {
+    color: #38053a;
+}
+
+h2 {
+    color:rgb(224, 82, 63)
 }
