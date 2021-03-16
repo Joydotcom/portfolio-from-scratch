@@ -3,12 +3,20 @@
     background-color:gray;
     color: white;
 }
+header {
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #747474;
+    color: #ffffff;
+}
 
 h1 {
     color: purple;
-    background-color: gray;
 }
-
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
 body {
     background-color: #d9dcd6;
 }
