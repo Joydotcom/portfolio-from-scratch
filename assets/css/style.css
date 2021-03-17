@@ -69,6 +69,9 @@ section {
 body, html {
     height: 100%;
 }
+.about-me {
+    align-content: space-between;
+}
 .justjoy {
     color:rgba(210, 180, 140, 0.801)
 }
@@ -97,7 +100,6 @@ body, html {
 }
 .about-me {
     display: flex;
-    justify-content: flex-start;
 }
  .bdr-rt {
      border-right: 10px solid rgba(210, 180, 140, 0.801);
@@ -107,14 +109,23 @@ body, html {
      
  }
 .content {
-    flex: 0 0 70%;
+    display: flex;
+    position: relative;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    /* flex: 0 0 70%;
     padding-left: 30px;
+    margin:0%;
+    position: relative; */
     
 }
 .backgroundimg {
     padding: 35px;
         height: 200px;
-        width: 90.45%;
+        width: 90.5%;
         margin-bottom: 25px;
         background-image: url("../images/brickwoodhdr.jpg");
         background-size: cover;
@@ -139,12 +150,13 @@ body, html {
 }  
 }
 .image1 {
-    flex: 0 0 100%;
+    flex: 0 0 200%;
     position: relative;
+    padding-left: 30px;
 }
 .otherimgs {
     flex: 0 0 50%;
-    margin: 0%;
+    margin:0%;
     position: relative;
 
 }
@@ -152,10 +164,18 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .bottom li {
     display: inline-block;
   flex-direction: row;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+.headshot {
+    padding-right: 20px;
 }
 footer {
     padding: 30px;
