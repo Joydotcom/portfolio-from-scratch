@@ -54,7 +54,7 @@ body, html {
     height: 100%;
 }
  .bdr-rt {
-     border-right: 5px solid navy;
+     border-right: 5px solid whitesmoke;
      flex: 0 0 20%;
      text-align: right;
  }
@@ -70,4 +70,15 @@ body, html {
         background-position: center;
     }
 }
+.image1 {
+    flex: 0 0 100%
 
+}
+.otherimgs {
+    flex: 0 0 50%
+
+}
+.mother {
+    display: flex;
+    flex-wrap: wrap;
+}
