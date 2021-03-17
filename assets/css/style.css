@@ -4,10 +4,12 @@
     color: white;
 }
 header {
-    padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #6e6e6e5b;
+    padding: 35px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #e41515;
+    background-color: rgba(210, 180, 140, 0.801);
     display:flex;
     justify-content: space-between;
 }
@@ -16,10 +18,12 @@ h1 {
     color: #5398c5;
 }
 header h1 {
-    font-size: 60px;
+    font-size: 75px;
+    background-image: url("..assets/images/brickwoodhdr.jpg");
 }
 body {
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 .Jackson {
@@ -71,7 +75,7 @@ body, html {
     }
 }
 .image1 {
-    flex: 0 0 100%
+    flex: 0 0 100%;
 
 }
 .otherimgs {
