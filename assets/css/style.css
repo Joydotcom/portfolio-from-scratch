@@ -5,8 +5,8 @@
 }
 header {
     padding: 35px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 8px;
+    padding-top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #e41515;
     background-color: rgba(210, 180, 140, 0.801);
@@ -32,8 +32,18 @@ header h1 .Jackson {
 h2 {
     color:#525252;
     font-size: xx-large;
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
 }
-
+section h2 nav ul {
+    
+}
 
 header nav {
     padding-top: 15px;
@@ -52,7 +62,7 @@ header nav ul li {
 }
 section {
     display: flex;
-    justify-content: space-between;
+    justify-content: ;
 }
 body, html {
     height: 100%;
@@ -75,6 +85,13 @@ body, html {
         background-size: cover;
         background-position: center;
     }
+.backgroundimg {
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 28px;
+
+}    
 }
 .image1 {
     flex: 0 0 100%;
@@ -87,4 +104,8 @@ body, html {
 .mother {
     display: flex;
     flex-wrap: wrap;
+}
+.bottom li {
+    display: inline-block;
+  flex-direction: row;
 }
