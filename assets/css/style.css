@@ -31,7 +31,8 @@ header h1 .Jackson {
 }
 
 h2 {
-    color:#38053a
+    color:#525252;
+    font-size: xx-large;
 }
 
 
@@ -58,9 +59,10 @@ body, html {
     height: 100%;
 }
  .bdr-rt {
-     border-right: 5px #c57753;
+     border-right: 10px solid rgba(210, 180, 140, 0.801);
      flex: 0 0 20%;
      text-align: right;
+     
  }
 .content {
     flex: 0 0 70%
@@ -76,10 +78,10 @@ body, html {
 }
 .image1 {
     flex: 0 0 100%;
-
 }
 .otherimgs {
-    flex: 0 0 50%
+    flex: 0 0 50%;
+    margin: 0%;
 
 }
 .mother {
