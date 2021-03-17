@@ -65,7 +65,7 @@ body, html {
  }
 .content {
     flex: 0 0 70%;
-    text-align: row;
+    
 }
 .backgroundimg {
         height: 200px;
@@ -87,9 +87,4 @@ body, html {
 .mother {
     display: flex;
     flex-wrap: wrap;
-}
-.bottom {
-    list-style-type: none;
-        margin-right: 25px;
-
 }
