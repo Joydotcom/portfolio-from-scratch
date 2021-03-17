@@ -19,7 +19,6 @@ h1 {
 }
 header h1 {
     font-size: 75px;
-    background-image: url("..assets/images/brickwoodhdr.jpg");
 }
 body {
     background-color: white;
@@ -46,7 +45,13 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-
+nav ul {
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-flex;
+    margin-right: 25px;
+}
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
