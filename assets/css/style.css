@@ -45,13 +45,7 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-nav ul {
-    list-style-type: none;
-}
-nav ul li{
-    display: inline-flex;
-    margin-right: 25px;
-}
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -70,7 +64,8 @@ body, html {
      
  }
 .content {
-    flex: 0 0 70%
+    flex: 0 0 70%;
+    text-align: row;
 }
 .backgroundimg {
         height: 200px;
@@ -92,4 +87,9 @@ body, html {
 .mother {
     display: flex;
     flex-wrap: wrap;
+}
+.bottom {
+    list-style-type: none;
+        margin-right: 25px;
+
 }
