@@ -13,17 +13,17 @@ header {
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: #5398c5;
 }
 header h1 {
     font-size: 60px;
 }
 body {
-    background-color: #5398c5;
+    background-color: white;
 }
 
 header h1 .Jackson {
-    color: #3b3b3b;
+    color: #525252;
 }
 
 h2 {
@@ -54,7 +54,7 @@ body, html {
     height: 100%;
 }
  .bdr-rt {
-     border-right: 5px solid whitesmoke;
+     border-right: 5px #c57753;
      flex: 0 0 20%;
      text-align: right;
  }
@@ -65,7 +65,7 @@ body, html {
         height: 200px;
         width: 100%;
         margin-bottom: 25px;
-        background-image: url("../images/whitebrickwoodheader.JPEG");
+        background-image: url("../images/brickwoodhdr.jpg");
         background-size: cover;
         background-position: center;
     }
