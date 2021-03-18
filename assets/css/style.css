@@ -8,7 +8,6 @@ header {
     padding-bottom: 8px;
     padding-top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #e41515;
     background-color: rgba(210, 180, 140, 0.801);
     display:flex;
     justify-content: space-between;
@@ -87,38 +86,39 @@ body, html {
 }
 .image1 span {
     position:absolute; 
-    left: 100px;
-    top: 400px;
-    background-color: slategray;
+    top: 443px;
+    background-color: rgba(82, 129, 156, 0.788);
     font-size: xx-large;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-div.otherimgs {
-    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: #525252;
+    font-style: italic
+    ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .otherimgs span {
     position: absolute;
-    top: 150px;
-    background-color: slategray;
+    top: 155px;
+    background-color: rgba(82, 129, 156, 0.753);
     font-size: xx-large;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #525252;
+    font-style: italic;
 }
 .about-me {
     display: flex;
 }
  .bdr-rt {
      border-right: 10px solid rgba(210, 180, 140, 0.801);
-     flex: 0 0 20%;
+     flex: 0 0 15%;
      text-align: right;
-     padding-right: 30px;
+     padding-right: 20px;
      
  }
 .content {
@@ -128,11 +128,6 @@ div.otherimgs {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 30px;
-
-    /* flex: 0 0 70%;
-    padding-left: 30px;
-    margin:0%;
-    position: relative; */
     
 }
 p.content {
@@ -140,9 +135,9 @@ p.content {
 }
 .backgroundimg {
     padding: 35px;
-        height: 200px;
+        height: 150px;
         width: 90%;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
         background-image: url("../images/brickwoodhdr.jpg");
         background-size: cover;
         background-position: center;
@@ -150,39 +145,41 @@ p.content {
 .backgroundimg {
     display:flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content:flex-end;
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-right: 100px;
+    font-style: italic;
 }  
 .choosejoy {
     padding-right: 60px;
     padding-left: 60px;
     padding-bottom: 10px;
     padding-top: 10px;
-    color: rgba(210, 180, 140, 0.801);
+    color:#525252;
     background-color:rgba(82, 129, 156, 0.726);
-    align-items: center;
+    /* align-items: right; */
 }  
 
 .image1 {
-
+    border: 5px solid rgba(82, 129, 156, 0.726);
     position: relative;
-    padding-left: 30px;
-    margin:auto;
+    /* padding-left: 30px;
+    margin:auto; */
     line-height: 1.5;
 }
 .otherimgs {
-    flex: 0 0 40%;
-    margin:auto;
+    /* flex: 0 0 40%; */
+    margin:20px;
     position: relative;
+    border: 5px solid rgba(82, 129, 156, 0.726);
 
 }
 .mother {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    padding-left: 70px;
+    padding-left: 170px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
