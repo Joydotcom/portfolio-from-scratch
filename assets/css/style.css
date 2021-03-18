@@ -127,7 +127,7 @@ body, html {
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 30px;
+    padding-right: 80px;
     
 }
 p.content {
@@ -186,8 +186,10 @@ p.content {
 .bottom li {
     display: inline-block;
   flex-direction: row;
-  padding-left: 40px;
+  padding-left: 200px;
   padding-top: 25px;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .headshot {
     padding-right: 20px;
