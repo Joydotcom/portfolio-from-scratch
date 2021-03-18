@@ -4,7 +4,7 @@
     color: white;
 }
 header {
-    padding: 35px;
+    /* padding: 35px; */
     padding-bottom: 8px;
     padding-top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,16 +87,29 @@ body, html {
 }
 .image1 span {
     position:absolute; 
-    left: 50px;
-    bottom: 0px;
+    left: 100px;
+    top: 400px;
     background-color: slategray;
+    font-size: xx-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+div.otherimgs {
+    padding-left: 20px;
+}
 .otherimgs span {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    top: 150px;
     background-color: slategray;
+    font-size: xx-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .about-me {
     display: flex;
@@ -114,7 +127,7 @@ body, html {
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
 
     /* flex: 0 0 70%;
     padding-left: 30px;
@@ -122,10 +135,13 @@ body, html {
     position: relative; */
     
 }
+p.content {
+    line-height: 1.5;
+}
 .backgroundimg {
     padding: 35px;
         height: 200px;
-        width: 90.5%;
+        width: 90%;
         margin-bottom: 25px;
         background-image: url("../images/brickwoodhdr.jpg");
         background-size: cover;
@@ -148,15 +164,17 @@ body, html {
     background-color:rgba(82, 129, 156, 0.726);
     align-items: center;
 }  
-}
+
 .image1 {
-    flex: 0 0 200%;
+
     position: relative;
     padding-left: 30px;
+    margin:auto;
+    line-height: 1.5;
 }
 .otherimgs {
-    flex: 0 0 50%;
-    margin:0%;
+    flex: 0 0 40%;
+    margin:auto;
     position: relative;
 
 }
@@ -164,9 +182,9 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .bottom li {
     display: inline-block;
