@@ -40,10 +40,7 @@ h2 {
         margin-inline-end: 0px;
         font-weight: bold;
     }
-}
-section h2 nav ul {
-    
-}
+
 
 header nav {
     padding-top: 15px;
@@ -70,6 +67,7 @@ body, html {
 }
 .about-me {
     align-content: space-between;
+    padding-top: 40px;
 }
 .justjoy {
     color:rgba(210, 180, 140, 0.801)
@@ -119,11 +117,13 @@ body, html {
      flex: 0 0 15%;
      text-align: right;
      padding-right: 20px;
+     padding-left: 20px;
+ 
      
  }
 .content {
     display: flex;
-    position: relative;
+    /* position: relative; */
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -132,6 +132,7 @@ body, html {
 }
 p.content {
     line-height: 1.5;
+    /* width: 50%; */
 }
 .backgroundimg {
     padding: 35px;
@@ -140,7 +141,7 @@ p.content {
         margin-bottom: 35px;
         background-image: url("../images/brickwoodhdr.jpg");
         background-size: cover;
-        background-position: center;
+        /* background-position: center; */
     }
 .backgroundimg {
     display:flex;
@@ -151,6 +152,11 @@ p.content {
     padding-right: 100px;
     font-style: italic;
 }  
+
+span.choosejoy {
+  align-items: right;
+}
+
 .choosejoy {
     padding-right: 60px;
     padding-left: 60px;
@@ -158,7 +164,7 @@ p.content {
     padding-top: 10px;
     color:#525252;
     background-color:rgba(82, 129, 156, 0.726);
-    /* align-items: right; */
+  
 }  
 
 .image1 {
@@ -194,6 +200,9 @@ p.content {
 .headshot {
     padding-right: 20px;
 }
+.contact {
+    align-content: space-between;
+}
 footer {
     padding: 30px;
     clear: both;
@@ -203,4 +212,14 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+ div.container.for-about {
+     display: flex;
+
+
+ }
+
+ .card-deck
+{
+    padding-top: 100px;
 }
