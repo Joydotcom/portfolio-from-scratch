@@ -57,6 +57,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 section {
     display: flex;
@@ -66,8 +67,8 @@ body, html {
     height: 100%;
 }
 .about-me {
-    align-content: space-between;
-    padding-top: 40px;
+    /* align-content: space-between;
+    padding-top: 40px; */
 }
 .justjoy {
     color:rgba(210, 180, 140, 0.801)
@@ -222,4 +223,6 @@ footer h2 {
  .card-deck
 {
     padding-top: 100px;
+    padding-left: 20px;
 }
+
